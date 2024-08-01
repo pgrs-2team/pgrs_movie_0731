@@ -1,3 +1,5 @@
+package com.team2;
+
 import java.util.List;
 
 public interface IReservationManager {

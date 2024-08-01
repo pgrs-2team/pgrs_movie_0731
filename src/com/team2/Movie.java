@@ -1,3 +1,5 @@
+package com.team2;
+
 import java.time.LocalDate;
 
 public class Movie {
@@ -15,7 +17,7 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "Movie{" +
+        return "com.team2.Movie{" +
                 "movie_id=" + movie_id +
                 ", title='" + title + '\'' +
                 ", director='" + director + '\'' +

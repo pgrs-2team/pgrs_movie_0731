@@ -1,3 +1,5 @@
+package com.team2;
+
 import java.time.LocalDate;
 
 public class Reservation {
@@ -28,7 +30,7 @@ public class Reservation {
 
     @Override
     public String toString() {
-        return "Reservation{" +
+        return "com.team2.Reservation{" +
                 "reservation_id=" + reservation_id +
                 ", reservation_user_name='" + reservation_user_name + '\'' +
                 ", movie_id=" + movie_id +
