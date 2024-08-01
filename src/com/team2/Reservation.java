@@ -13,6 +13,9 @@ public class Reservation {
 
     private LocalDate reservation_date;
 
+    public Reservation() {
+    }
+
     public Reservation(String reservation_user_name, int movie_id, int head_count, LocalDate reservation_date) {
         this.reservation_user_name = reservation_user_name;
         this.movie_id = movie_id;
@@ -57,5 +60,25 @@ public class Reservation {
 
     public LocalDate getReservation_date() {
         return reservation_date;
+    }
+
+    public void setReservation_id(int reservation_id) {
+        this.reservation_id = reservation_id;
+    }
+
+    public void setReservation_user_name(String reservation_user_name) {
+        this.reservation_user_name = reservation_user_name;
+    }
+
+    public void setMovie_id(int movie_id) {
+        this.movie_id = movie_id;
+    }
+
+    public void setHead_count(int head_count) {
+        this.head_count = head_count;
+    }
+
+    public void setReservation_date(LocalDate reservation_date) {
+        this.reservation_date = reservation_date;
     }
 }

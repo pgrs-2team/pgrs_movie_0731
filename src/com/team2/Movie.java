@@ -27,6 +27,9 @@ public class Movie {
                 '}';
     }
 
+    public Movie() {
+    }
+
     public Movie(int movie_id, String title, String director, String genre, LocalDate start_date, LocalDate end_date) {
         this.movie_id = movie_id;
         this.title = title;
@@ -66,5 +69,29 @@ public class Movie {
 
     public LocalDate getEnd_date() {
         return end_date;
+    }
+
+    public void setMovie_id(int movie_id) {
+        this.movie_id = movie_id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public void setStart_date(LocalDate start_date) {
+        this.start_date = start_date;
+    }
+
+    public void setEnd_date(LocalDate end_date) {
+        this.end_date = end_date;
     }
 }
