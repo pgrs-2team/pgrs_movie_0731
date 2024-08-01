@@ -1,10 +1,10 @@
-package jieun;
+package com.team2.jieun;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import jieun.DBUtil;
+
 import com.team2.IMovieManager;
 import com.team2.Movie;
 

@@ -1,4 +1,4 @@
-package jieun;
+package com.team2.jieun;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
