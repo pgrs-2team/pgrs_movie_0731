@@ -1,11 +1,8 @@
-package jg;
+package com.team2.jg;
 
 import com.team2.IMovieManager;
 import com.team2.Movie;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;

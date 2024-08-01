@@ -1,4 +1,4 @@
-package jg;
+package com.team2.jg;
 
 import com.team2.IReservationManager;
 import com.team2.Reservation;

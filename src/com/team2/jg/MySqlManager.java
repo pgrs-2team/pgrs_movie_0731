@@ -1,4 +1,4 @@
-package jg;
+package com.team2.jg;
 
 import java.sql.*;
 
