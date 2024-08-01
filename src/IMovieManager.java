@@ -11,6 +11,4 @@ public interface IMovieManager {
     Movie getMovie(String title); //제목으로 영화 검색
 
     List<Movie> movieList(); //영화 전체 목록
-
-    void closeConn();
 }

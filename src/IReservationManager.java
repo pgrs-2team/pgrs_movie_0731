@@ -10,6 +10,4 @@ public interface IReservationManager {
     void deleteReservation(int id); // 예약 삭제
 
     void updateReservation(int id, int headCount); // 예약 수정 (인원 수만)
-
-    void closeConn();
 }
